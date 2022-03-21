@@ -1,4 +1,4 @@
-package loianeGroner_EstruturaDeDadosComJAVA;
+package loianeGroner_EstruturaDeDadosComJAVA.Aula3;
 
 public class Aula03 {
 
