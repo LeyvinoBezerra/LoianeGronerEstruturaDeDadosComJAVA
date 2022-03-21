@@ -4,9 +4,18 @@ public class Aula03 {
 
 	public static void main(String[] args) {
 	
-		Vetor vetor = new Vetor(5); 
+		Vetor vetor = new Vetor(10); 
 		
-		vetor.adicionar("Leyva!");
+		try {
+
+			vetor.adicionar("Leyva!");
+			vetor.adicionar("Leyva!");
+			vetor.adicionar("Leyva!");
+			
+		} catch (Exception e) {
+			
+			e.printStackTrace();
+		}
 	}
 
 }
