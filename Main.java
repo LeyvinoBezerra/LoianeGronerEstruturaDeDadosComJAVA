@@ -11,13 +11,10 @@ public class Main {
 		temperatura[3] = 27.6;
 		temperatura[4] = 32.6;
 
-		System.out.println("O valor da temperatura hoje é:" + temperatura[4]);
+		System.out.println("O valor da temperatura hoje é:  " + temperatura[4]);
 
 		System.out.println("o tamanho do array é:" + temperatura.length);
 
-		for (int i = 0; i < temperatura.length; i++) {
-			System.out.println("temperatura do dia:" + (i+1) + "E:" + temperatura[1]);
 		}
 
 	}
-}
